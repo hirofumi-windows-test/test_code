@@ -13,8 +13,6 @@
 #define SDA_input	(nrf_gpio_cfg_input(29, GPIO_PIN_CNF_PULL_Disabled))	//プルアップはなし
 #define SDA_output	(nrf_gpio_cfg_output(29))
 
-/* 遅延関数用クロック周波数の設定はどうするか -> 遅延のライブラリがあるのでいらない・・・？ */
-
 
 /* 調整用定数 */
 //#define CONTRAST	(0x18)	//for 5.0V
